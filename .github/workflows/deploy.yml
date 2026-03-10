@@ -1,5 +1,4 @@
-name: Deploy to Firebase Hosting
-
+name: CI/CD Firebase Hosting Deploy
 on:
   push:
     branches:
