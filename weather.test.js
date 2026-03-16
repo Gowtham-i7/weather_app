@@ -1,6 +1,6 @@
 console.log("Running Weather App Test...");
 
-const city = "London";
+const city = "";
 
 if (!city) {
     throw new Error("City name missing");
