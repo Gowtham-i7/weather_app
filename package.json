@@ -1,5 +1,9 @@
 {
-  "dependencies": {
-    "node-fetch": "^3.3.2"
+  "name": "firebase-weather",
+  "version": "1.0.0",
+  "description": "Weather app CI test",
+  "main": "script.js",
+  "scripts": {
+    "test": "node weather.test.js"
   }
 }
