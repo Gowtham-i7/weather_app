@@ -2,7 +2,19 @@
 <html>
 <head>
 <title>Weather App</title>
+
 <link rel="stylesheet" href="style.css">
+
+<!-- Sentry Browser SDK -->
+<script src="https://browser.sentry-cdn.com/7.120.3/bundle.min.js"></script>
+
+<script>
+Sentry.init({
+  dsn: "https://cbe09b145863bb45e4c2a308349c8ee5@o4511054810185728.ingest.us.sentry.io/4511054888304640",
+  tracesSampleRate: 1.0
+});
+</script>
+
 </head>
 
 <body>
